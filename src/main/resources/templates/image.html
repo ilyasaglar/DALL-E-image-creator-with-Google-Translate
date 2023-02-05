@@ -16,18 +16,18 @@
 
             <div class="row mt-4">
                 <div class="col-md-8">
-                    <label for="promptText">Metin Giriniz<label style="color: red">*</label> </label>
+                    <label for="promptText">Metin Giriniz/Enter Prompt<label style="color: red">*</label> </label>
                     <input type="text" name="prompt" id="promptText" th:value="${prompt}" placeholder="Enter text"
                            class="form-control" required/>
                 </div>
                 <div class="col-md-2">
-                    <label for="enterPiece">Adet Giriniz</label>
-                    <input type="number" th:min="1" th:max="10" name="piece" id="enterPiece" value="1"
+                    <label for="enterPiece">Adet Giriniz/Enter Piece</label>
+                    <input type="number" name="piece" id="enterPiece" value="1"
                            th:value="${piece}" placeholder="1-10 enter value"
-                           class="form-control" required/>
+                           class="form-control" />
                 </div>
                 <div class="col-md-2">
-                    <label for="selectSize">Boyut Seçiniz</label>
+                    <label for="selectSize">Boyut Seçiniz/Select Size</label>
                     <select class="form-control" name="size" id="selectSize">
                         <option th:value="'1024x1024'">1024x1024</option>
                         <option th:value="'512x512'">512x512</option>
@@ -37,7 +37,7 @@
             </div>
             <div class="mt-2">
                 <div class="text-center">
-                    <input type="submit" th:style="'width: 300px; !important'" value="Create" class="btn btn-primary btn-lg btn-block"/>
+                    <input type="submit" th:style="'width: 300px; !important'" value="Oluştur / Create" class="btn btn-primary btn-lg btn-block"/>
                 </div>
             </div>
 
@@ -63,7 +63,7 @@
                     </div>
                 </tr>
 
-                <h2 th:if="${(imageUriList == null || imageUriList.size() ==0) && isSearched == true}">There were no
+                <h2 th:if="${(imageUriList == null || imageUriList.size() ==0) && isSearched == true}">Sonuç bulunamadı / There were no
                     results </h2>
             </div>
         </div>
