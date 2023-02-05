@@ -22,10 +22,10 @@
 </div>
 
 
-<p align="left"></p>
+<p align="left">------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
 ###
 
-<div align="center">
+<div align="left">
   <img height="512" src="https://github.com/ilyasaglar/DALL-E-image-creator-with-Google-Translate/blob/main/images/512.png"  />
 </div>
 
