@@ -79,7 +79,17 @@ curl https://api.openai.com/v1/images/generations \
 		<version>2.9.0</version>
  </dependency>
   ```
+  
+  
+###
 
+<h2 align="left">How to get it running</h2>
+
+###
+
+<h3 align="left">Clone this GIT project.<br>Make sure this is a Maven project and Maven is executed to install the dependencies.<br>Add Opena AI api key and Google Translate api key to **application.properties** file in the project.<br>Launch it as a Spring Boot application.<br>To chat with ChatGPT: http://localhost:8080/</h3>
+
+###
 
 
 ###
