@@ -18,9 +18,11 @@
 ###
 
 <div align="left">
-  <img height="1024" src="https://github.com/ilyasaglar/DALL-E-image-creator-with-Google-Translate/blob/main/images/1024x1024.png"  />
+  <img height="1024" src="https://github.com/ilyasaglar/DALL-E-image-creator-with-Google-Translate/blob/main/images/1024.png"  />
 </div>
 
+
+<p align="left"></p>
 ###
 
 <div align="center">
