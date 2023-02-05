@@ -22,7 +22,7 @@
 </div>
 
 
-<p align="left">------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<p align="left">---------------------------------------------------------------------------------------------------------------------------------------------------</p>
 ###
 
 <div align="left">
@@ -39,11 +39,22 @@
 
 ###
 
-<p align="left">curl https://api.openai.com/v1/images/generations \<br>  -H 'Content-Type: application/json' \<br>  -H 'Authorization: Bearer YOUR_API_KEY' \<br>  -d '{<br>  "prompt": "A cute baby sea otter",<br>  "n": 2,<br>  "size": "1024x1024"<br>}'</p>
+
+```
+curl https://api.openai.com/v1/images/generations \
+  -H 'Content-Type: application/json' \
+  -H 'Authorization: Bearer YOUR_API_KEY' \
+  -d '{
+  "prompt": "A cute baby sea otter",
+  "n": 2,
+  "size": "1024x1024"
+}'
+
+```
 
 ###
 
-<p align="left">------------------------------------------------------------------------------------------------------------------------------------------------------------------------</p>
+<p align="left">---------------------------------------------------------------------------------------------------------------------------------------------------</p>
 
 ###
 
@@ -57,6 +68,16 @@
 
 <br clear="both">
 
-<p align="left">Use to Google Translate Library Dependency<br><br><dependency><br>			 <groupId>com.google.cloud</groupId><br>			<artifactId>google-cloud-translate</artifactId><br>			<version>2.9.0</version><br>		</dependency></p>
+<p align="left">Use to Google Translate Library Dependency<br><br> </p>
+
+  ```
+ <dependency>
+		<groupId>com.google.cloud</groupId>
+		<artifactId>google-cloud-translate</artifactId>
+		<version>2.9.0</version>
+ </dependency>
+  ```
+
+
 
 ###
