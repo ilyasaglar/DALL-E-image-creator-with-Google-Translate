@@ -35,7 +35,9 @@
 
 ###
 
-<p align="left">Go to https://openai.com/api/login<br>Create a OpenAI Account<br>Go to https://platform.openai.com/account/api-keys<br>Create new API key<br><br>DALL-E API Documentation: https://platform.openai.com/docs/api-reference/images<br><br>Example Request:</p>
+<p align="left">Go to https://openai.com/api/login<br>Create a OpenAI Account<br>Go to https://platform.openai.com/account/api-keys<br>Create new API key<br>DALL-E API is paid to use, for information about fees: https://openai.com/api/pricing/ <br><br>DALL-E API Documentation: https://platform.openai.com/docs/api-reference/images
+
+<br>Example Request:</p>
 
 ###
 
@@ -62,7 +64,7 @@ curl https://api.openai.com/v1/images/generations \
 
 ###
 
-<h4 align="left">Go to https://console.cloud.google.com/apis/dashboard<br>Create a Google Account<br>Create a new Project<br>Go to https://console.cloud.google.com/apis/credentials<br>Create a new API Key</h4>
+<h4 align="left">Go to https://console.cloud.google.com/apis/dashboard<br>Create a Google Account<br>Create a new Project<br>Go to https://console.cloud.google.com/apis/credentials<br>Create a new API Key<br>Google Translate API is paid, but at the first stage, it gives a 300$ credit that you can use within 3 months.</h4>
 
 ###
 
